@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de inscrição</title>
+</head>
+<body>
+    <header>
+        <h1>Formulário de Inscrição</h1>
+        <p>Por favor, complete os dados abaixo para realizar a inscrição.</p>
+    </header>
+
+    <main>
+        <form action="#" method="post">
+            <section>
+                <h2>Dados Pessoais</h2>
+                <p>Preencha seus dados pessoais abaixo:</p>   
+                <div>
+                    <label for="nome">Nome Completo:</label>
+                    <input type="text">
+                </div>
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="email">
+                </div>
+                <div>
+                <label for="telefone">Telefone:</label>
+                <input type="tel">
+            </div>
+            <div>
+                <label for="data nascimento">Data de Nascimento:</label>
+                <input type="date">
+                <div>
+               <label>Gênero:</label>
+               <input type="radio">
+                <label for="masculino">Masculino</label>
+                <input type="radio">
+                <label for="feminino">Feminino</label>
+                <input type="radio">
+                <label for="Outro">Outro</label>
+                </div>
+            </section>
+
+            <section>
+                <h2>Tipo de inscrição</h2>
+                <p>Selecione o tipo de inscrição desejado:</p>
+                <div>
+                    <label for="tipo_inscriçao">Tipo de inscrição: </label>
+                    <select id="tipo_inscricao" name="tipo_inscricao">
+                    <option value="Palestrante">Palestrante</option>
+                    <option value="Participante">Participante</option>
+                    <option value="Voluntário">Voluntário</option>
+                </select>
+                </div>
+            </section>
+
+            <section>
+                <h2>Mensagem</h2>
+                <p>Deixe sua mensagem (opcional, máximo de 200 caracteres):</p>
+                <div>
+                    <label for="message">Mensagem</label>
+                    <textarea maxlength="200"></textarea>
+                </div>
+            </section>
+
+            <footer>
+                <button type="reset">Limpar Formulário</button>
+                <button type="submit">Enviar Dados</button>
+            </footer>
+        </form>
+    </main>
+
+</body>
+</html>
